@@ -36,5 +36,4 @@ $status = (empty($user)) ? "Kosong" : "Ada isi";
 echo $status."<br>";
 //variabel $color diisi dengan "red" jika $color tidak ada atau null
 echo $color = $color ?? "red";
-
 ?>
